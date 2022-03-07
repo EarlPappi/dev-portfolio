@@ -1,0 +1,172 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: #adadad;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 440px) {
+  .container {
+    width: 85%;
+  }
+}
+@media (min-width: 850px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  background-color: #fbe850;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: white;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  line-height: 150%;
+}
+
+header {
+  margin-bottom: 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+span header nav img {
+  display: block;
+}
+header nav span {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#section-1 {
+  margin-bottom: 80px;
+}
+@media (min-width: 560px) {
+  #section-1 h1 {
+    width: 70%;
+  }
+}
+@media (min-width: 850px) {
+  #section-1 h1 {
+    width: 50%;
+  }
+}
+@media (min-width: 560px) {
+  #section-1 p {
+    width: 70%;
+  }
+}
+@media (min-width: 850px) {
+  #section-1 p {
+    width: 50%;
+  }
+}
+
+#section-2 div {
+  padding-top: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  display: grid;
+  font-size: larger;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 560px) {
+  #section-2 div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 850px) {
+  #section-2 div {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+#section-2 div img {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+#section-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+@media (min-width: 800px) {
+  #section-3 {
+    flex-direction: row;
+  }
+}
+#section-3 div {
+  display: flex;
+  flex-direction: column;
+}
+#section-3 div h1 {
+  margin-top: 10px;
+}
+
+#section-4 {
+  background-color: #2e3038;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+@media (min-width: 800px) {
+  #section-4 #inner {
+    display: flex;
+    gap: 25px;
+  }
+}
+
+#section-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (min-width: 560px) {
+  #section-5 div p {
+    width: 50%;
+  }
+}
+@media (min-width: 850px) {
+  #section-5 div p {
+    width: 50%;
+  }
+}
+#section-5 div p {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #2e3038;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+footer div img {
+  display: inline-block;
+  width: 30%;
+}
+
+/*# sourceMappingURL=index.css.map */

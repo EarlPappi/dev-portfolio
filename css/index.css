@@ -45,6 +45,11 @@ p {
 header {
   margin-bottom: 15px;
 }
+@media (min-width: 800px) {
+  header {
+    display: none;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -56,6 +61,22 @@ span header nav img {
 header nav span {
   font-size: 2em;
   font-weight: 900;
+}
+
+#desktop-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media (max-width: 800px) {
+  #desktop-menu {
+    display: none;
+  }
+}
+#desktop-menu nav a {
+  text-decoration: none;
+  color: #adadad;
+  padding: 5px;
 }
 
 #section-1 {
